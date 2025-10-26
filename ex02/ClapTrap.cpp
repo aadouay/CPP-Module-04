@@ -1,6 +1,6 @@
 #include "ClapTrap.hpp"
 
-ClapTrap::ClapTrap():name("NULL"), Hit_points(10),
+ClapTrap::ClapTrap():name("Default"), Hit_points(10),
                     Energy_points(10), Attack_damage(0){
                         std::cout << "the default constractor is called !\n";
                     }
