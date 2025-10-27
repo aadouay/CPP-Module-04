@@ -2,7 +2,7 @@
 
 ClapTrap::ClapTrap():name("Default"), Hit_points(10),
                     Energy_points(10), Attack_damage(0){
-                        std::cout << "the default constractor is called !\n";
+                        std::cout << "the default ClapTrap constractor is called !\n";
                     }
 
 ClapTrap::ClapTrap(std::string name){
@@ -69,5 +69,5 @@ void    ClapTrap::beRepaired(unsigned int amount){
 }
 
 ClapTrap::~ClapTrap(){
-    std::cout << "the deconstractor is called!\n";
+    std::cout << "the ClapTrap deconstractor is called!\n";
 }

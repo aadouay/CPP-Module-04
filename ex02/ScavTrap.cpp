@@ -1,7 +1,7 @@
 #include "ScavTrap.hpp"
 
 ScavTrap::ScavTrap():ClapTrap(){
-    std::cout << "the default constractor is called !\n";
+    std::cout << "the ScavTrap default constractor is called !\n";
     Hit_points = 100;
     Energy_points = 50;
     Attack_damage = 20;
@@ -27,5 +27,5 @@ void ScavTrap::guardGate(){
 }
 
 ScavTrap::~ScavTrap(){
-    std::cout << "the deconstractor is called!\n";
+    std::cout << "the ScavTrap deconstractor is called!\n";
 }
