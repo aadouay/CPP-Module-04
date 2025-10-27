@@ -13,10 +13,20 @@ ScavTrap::ScavTrap(const std::string& name):ClapTrap(name){
     Attack_damage = 20;
 }
 
+ScavTrap& ScavTrap::operator=(const ScavTrap& other) {
+    std::cout << "Copy assignment operator called" << std::endl;
+    name = other.name;
+    Hit_points = other.Hit_points;
+    Energy_points = other.Energy_points;
+    Attack_damage = other.Attack_damage;
+
+    return *this;
+}
+
 void ScavTrap::guardGate(){
     std::cout << "ScavTrap " << name << " is now in Gate keeper mode!" << std::endl;
 }
 
 ScavTrap::~ScavTrap(){
-    std::cout << "the deconstractor is called!\n";
+    std::cout << "the ScavTrap deconstractor is called!\n";
 }
