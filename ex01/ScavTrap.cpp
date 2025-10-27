@@ -28,5 +28,5 @@ void ScavTrap::guardGate(){
 }
 
 ScavTrap::~ScavTrap(){
-    std::cout << "the ScavTrap deconstractor is called!\n";
+    std::cout << "the ScavTrap destractur is called!\n";
 }

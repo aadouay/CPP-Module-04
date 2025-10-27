@@ -28,5 +28,5 @@ void    FragTrap::highFivesGuys(){
 }
 
 FragTrap::~FragTrap(){
-    std::cout << "the FragTrap deconstracor is called\n";
+    std::cout << "the FragTrap destractur is called\n";
 }
